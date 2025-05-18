@@ -5,7 +5,7 @@
 
 int main() {
    char arquivo[50], entrada[100], saida[100];
-   printf("Digite o nome do arquivo que deseja testar no montador RISC-V: ");
+   printf("Insira o nome do arquivo que deseja testar no montador RISC-V: ");
    scanf("%s", arquivo);
    sprintf(entrada, "arquivos/%s", arquivo);
    sprintf(saida, "output/output-%s", arquivo);
